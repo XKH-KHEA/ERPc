@@ -14,6 +14,13 @@ dotnet run
 
 //create MVC
 dotnet new mvc -n ERP_systems
+//create console 
+dotnet build
+
+dotnet new console -n MyConsoleApp
+dotnet add package Newtonsoft.Json
+dotnet publish -c Release -o ./publish
+
 
 
 
