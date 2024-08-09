@@ -12,4 +12,8 @@ dotnet new webapi -n ERP_system
 cd ERP_system
 dotnet run
 
+//create MVC
+dotnet new mvc -n ERP_systems
+
+
 
